@@ -34,7 +34,7 @@ const App = () => {
         <Router>
           <Fragment>
             <NavBar/>
-            <Alert/>
+            <div style={{marginTop: '4rem'}}><Alert/></div>
             <Switch>
               <Route exact path="/" component={Landing}/>
               <section className="container">
